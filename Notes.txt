@@ -1,0 +1,8 @@
+SASS starten:sass --watch main.scss:style.css
+
+In folder
+(sass --watch styles/main.scss:style.css)
+
+SASS stoppen: CTRL-C
+
+
