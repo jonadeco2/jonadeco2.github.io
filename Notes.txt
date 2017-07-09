@@ -11,3 +11,6 @@ SASS stoppen: CTRL-C
     color: red !default;
   }
 }
+
+Jekyll starten: jekyll serve --watch --baseurl ""
+Stop: ctrl-C
