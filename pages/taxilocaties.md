@@ -1,5 +1,5 @@
 ---
-layout : base
+layout : default
 title: "Taxilocaties"
 permalink: /home/taxilocaties/
 ---

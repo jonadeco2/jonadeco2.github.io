@@ -1,5 +1,5 @@
 ---
-layout : base
+layout : default
 title: "Treinverkeersmeldingen"
 permalink: /home/treinverkeersmeldingen/
 ---

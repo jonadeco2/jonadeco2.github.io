@@ -1,5 +1,5 @@
 ---
-layout : base
+layout : default
 title: "Profiel"
 permalink: /home/profiel/
 ---
