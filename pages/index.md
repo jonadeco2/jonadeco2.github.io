@@ -1,12 +1,15 @@
 ---
 layout : login
 title: "Login"
+permalink: /login/
 ---
 <dl>    
   <div class="container">
     <div class="row">
-        <div class="col-xs-12">
+        <div class="col-lg-12 col-xs-6">
             <img src="../../images/guideme.png" class="logo_login" alt="">
+        </div>
+        <div class="col-xs-12">
             <form name="login" class="form-signin">
 		    <div class="login">
 				<input type="text" class="form-control" placeholder="Username" name="userid">
@@ -14,14 +17,9 @@ title: "Login"
 				<input type="password" class="form-control" placeholder="Password" name="pswrd">
                 <br><br>
 				<input type="button" class="btn btn-default btn-block btn-custom" onclick="check(this.form)" value="Login"/>
-                <br>
-                <p><a class="btn btn-default btn-block btn-custom" href="register">Register</a></p>
 		    </div>
-
-
-
             </form>
-        </div><!-- end form -->
+        </div>
     </div>
 </div>
 

@@ -1,0 +1,14 @@
+---
+---
+
+$mainblue: rgba(43, 61, 79, 1);
+$black: rgba(black,0.8);
+$white: rgba(255,255,255,1);
+$maingreen: rgba(63, 181, 155, 1);
+
+.row_custom{
+  padding: 30px 10px 20px 10px;
+  background-color: $mainblue;
+  border:1px solid $white;
+}
+

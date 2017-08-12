@@ -1,0 +1,121 @@
+[
+  {
+    "naam": "s1 Station Evergem",
+    "straat": "Spoorwegstraat",
+    "huisnr": "4",
+    "postcode": "9940",
+    "deelgemeente": "Evergem",
+    "land": "Belgium",
+    "image": "/images/resto/1.jpg",
+    "column_8": "",
+    "column_9": "",
+    "column_10": ""
+  },
+  {
+    "naam": "s2 Station Wondelgem",
+    "straat": "Wondelgemstationplein",
+    "huisnr": "36",
+    "postcode": "9032",
+    "deelgemeente": "Gent",
+    "land": "Belgium",
+    "column_8": "",
+    "column_9": "",
+    "column_10": ""
+  },
+  {
+    "naam": "s3 Station Gent Dampoort",
+    "straat": "SNCB Gent Dampoort station",
+    "huisnr": "",
+    "postcode": "9000",
+    "deelgemeente": "Gent",
+    "land": "Belgium",
+    "image": "/images/resto/3.jpg",
+    "column_8": "",
+    "column_9": "",
+    "column_10": ""
+  },
+  {
+    "naam": "s4 Station Gentbrugge",
+    "straat": "Robert Rinskopflaan",
+    "huisnr": "49",
+    "postcode": "9050",
+    "deelgemeente": "Gent",
+    "land": "Belgium",
+    "image": "/images/resto/4.jpg",
+    "column_8": "",
+    "column_9": "",
+    "column_10": ""
+  },
+  {
+    "naam": "s5 Station Merelbeke",
+    "straat": "Mellestraat",
+    "huisnr": "110",
+    "postcode": "9050",
+    "deelgemeente": "Gent",
+    "land": "Belgium",
+    "image": "/images/resto/5.jpg",
+    "column_8": "",
+    "column_9": "",
+    "column_10": ""
+  },
+  {
+    "naam": "s5 Station Melle",
+    "straat": "Gemeenteplein",
+    "huisnr": "1",
+    "postcode": "9090",
+    "deelgemeente": "Melle",
+    "land": "Belgium",
+    "image": "/images/resto/6.jpeg",
+    "column_8": "",
+    "column_9": "",
+    "column_10": ""
+  },
+  {
+    "naam": "s6 Station De Pinte",
+    "straat": "Stationsstraat",
+    "huisnr": "10",
+    "postcode": "9840",
+    "deelgemeente": "De Pinte",
+    "land": "Belgium",
+    "image": "/images/resto/7.jpeg",
+    "column_8": "",
+    "column_9": "",
+    "column_10": ""
+  },
+  {
+    "naam": "s7 Station Gent Sint Pieters",
+    "straat": "SNCB Gent Sint Pieters Station",
+    "huisnr": "",
+    "postcode": "9000",
+    "deelgemeente": "Gent",
+    "land": "Belgium",
+    "image": "/images/resto/8.jpeg",
+    "column_8": "",
+    "column_9": "",
+    "column_10": ""
+  },
+  {
+    "naam": "s8 Station Drongen",
+    "straat": "Bieldekensstraat",
+    "huisnr": "",
+    "postcode": "9031",
+    "deelgemeente": "Gent",
+    "land": "Belgium",
+    "image": "/images/resto/9.jpeg",
+    "column_8": "",
+    "column_9": "",
+    "column_10": ""
+  },
+  {
+    "naam": "s9 Station Landegem",
+    "straat": "Stationsstraat",
+    "huisnr": "87",
+    "postcode": "9850",
+    "deelgemeente": "Nevele",
+    "land": "Belgium",
+    "image": "/images/resto/10.jpeg",
+    "column_8": "",
+    "column_9": "",
+    "column_10": ""
+  }
+]

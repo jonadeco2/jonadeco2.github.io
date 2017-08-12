@@ -1,0 +1,158 @@
+---
+---
+$mainblue: rgba(43, 61, 79, 1);
+$black: rgba(black,0.8);
+$white: rgba(255,255,255,1);
+$maingreen: rgba(63, 181, 155, 1);
+$maingreenseethrough: rgba(63, 181, 155, 0.5);
+
+
+
+.btn-custom {
+  color: white;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: $maingreen;
+  border: inherit;
+}
+
+.btn-custom:hover {
+  background-color: $maingreen !important;
+  color: white !important;
+}
+
+.link { 
+  font-family: Baloo Thambi, arial, serif; 
+}
+
+//nav
+nav{
+  background-color: $mainblue;
+}
+
+.logo {
+  padding-top: 12px;
+  display: block;
+}
+
+.green {
+  color: $maingreen;
+}
+
+.green:hover {
+  color: $maingreen;
+}
+
+.white {
+  color: $white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+  color: $white;
+  font-family: Baloo Thambi, arial, serif;
+  text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: $white;
+  }
+
+
+
+.padding-nav {
+    padding-top: 12px;
+}
+
+.padding-nav_back {
+  padding-top: 8px;
+}
+//footer
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: ghostwhite;
+}
+  
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow:hidden;
+    background-color: $mainblue;
+    color:white;
+    padding-top:10px;
+}
+
+
+
+
+//googlemaps
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+
+.padding_bottom-block {
+  padding-bottom: 20px;
+}
+
+.block_bottom {
+  height: 120px;
+}
+
+.block_top {
+  height: 143px;
+}
+
+
+.padding-block {
+  padding-top: 40px
+}
+
+.icon-custom {
+  color: $white;
+}
+
+.div-image_home{
+  background-color: $maingreenseethrough;
+}
+
+.wrapper_home{
+  background-image: url('../../images/city2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper_3 {
+  background-image: url('../../images/city3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper_2 {
+  background-image: url('../../images/city4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.padding_footer{
+  padding-top:  5px;
+}
