@@ -1,5 +1,5 @@
 ---
-layout : default
+layout : base
 title: "Fietsdienstverleningen"
 permalink: /home/fietsdienstverleningen/
 ---

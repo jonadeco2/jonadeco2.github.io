@@ -1,5 +1,5 @@
 ---
-layout : default
+layout : base
 title: "Stations"
 permalink: /home/stations/
 ---
