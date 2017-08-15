@@ -59,7 +59,7 @@
     "column_10": ""
   },
   {
-    "naam": "s5 Station Melle",
+    "naam": "s6 Station Melle",
     "straat": "Gemeenteplein",
     "huisnr": "1",
     "postcode": "9090",
@@ -71,7 +71,7 @@
     "column_10": ""
   },
   {
-    "naam": "s6 Station De Pinte",
+    "naam": "s7 Station De Pinte",
     "straat": "Stationsstraat",
     "huisnr": "10",
     "postcode": "9840",
@@ -83,7 +83,7 @@
     "column_10": ""
   },
   {
-    "naam": "s7 Station Gent Sint Pieters",
+    "naam": "s8 Station Gent Sint Pieters",
     "straat": "SNCB Gent Sint Pieters Station",
     "huisnr": "",
     "postcode": "9000",
@@ -95,7 +95,7 @@
     "column_10": ""
   },
   {
-    "naam": "s8 Station Drongen",
+    "naam": "s9 Station Drongen",
     "straat": "Bieldekensstraat",
     "huisnr": "",
     "postcode": "9031",
@@ -107,7 +107,7 @@
     "column_10": ""
   },
   {
-    "naam": "s9 Station Landegem",
+    "naam": "s10 Station Landegem",
     "straat": "Stationsstraat",
     "huisnr": "87",
     "postcode": "9850",
