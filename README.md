@@ -1,2 +1,23 @@
-# jonadeco2.github.io
-Webapplicatie opdracht NMDAD I
+GuideMe Repository
+
+|Naam|Jonas De Coster|
+|---|---|
+|Opleidingsonderdeel|New Media Design & Development I|
+|Academiejaar|2016-2017|
+|Opleiding|Bachelor in de grafische en digitale media|
+|Afstudeerrichting|Multimediaproductie|
+|Keuzeoptie|ProDUCE|
+|Opleidingsinstelling|[Arteveldehogeschool](http://www.arteveldehogeschool.be/)|
+
+---------------
+### Deploy
+
++ Start terminal
+    + Navigeer naar de map via `cd`
+Vervolgens:
++ git init
++ git remote add origin LinkToGithub
++ git add .
++ git status
++ git commit -m "tekst"
++ git push -u origin master
