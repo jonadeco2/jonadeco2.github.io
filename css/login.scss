@@ -8,15 +8,19 @@ $maingreen: rgba(63, 181, 155, 1);
 
 //login
 .logo_login{
-  display: block;
-  margin: auto;
-
   height: 200px;
-  width: auto;
   margin-bottom: 20px;
   margin-top: 60px;
+  background-image: url('../../images/guideme.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 #wrapper {
   background-color: $mainblue;
 }
+
+.center-block {
+  float: none !important
+  }
