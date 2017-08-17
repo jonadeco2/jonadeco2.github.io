@@ -6,9 +6,11 @@ permalink: /login/
 <dl>    
   <div class="container">
     <div class="row">
-        <div class="col-lg-12 col-xs-6">
-            <img src="../../images/guideme.png" class="logo_login" alt="">
+        <div class="col-xs-12">
+            <div class="logo_login"></div>
         </div>
+    </div>
+    <div class="row">
         <div class="col-xs-12">
             <form name="login" class="form-signin">
 		    <div class="login">
@@ -16,9 +18,10 @@ permalink: /login/
                 <br>
 				<input type="password" class="form-control" placeholder="Password" name="pswrd">
                 <br><br>
-				<input type="button" class="btn btn-default btn-block btn-custom" onclick="check(this.form)" value="Login"/>
+				<input type="button" class="btn btn-default btn-block btn-custom margin-button_login " onclick="check(this.form)" value="Login"/>
 		    </div>
             </form>
+        </div>
         </div>
     </div>
 </div>

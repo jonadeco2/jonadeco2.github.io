@@ -13,7 +13,7 @@ permalink: /register/
                 <br>
                 <input id="pw" type="password" class="form-control" placeholder="Password"/>
                 <br>
-                <input id="rgstr_btn" type="submit" name="register" value="Register" class="btn btn-default btn-block btn-custom" onClick="store()"/>
+                <input id="rgstr_btn" type="submit" name="register" value="Register" class="btn btn-default btn-block btn-custom margin-button_login " onClick="store()"/>
             </form>
         </div>
     </div>
