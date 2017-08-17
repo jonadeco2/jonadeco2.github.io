@@ -21,22 +21,22 @@ permalink: /home/
         <section>
             <div class="row">
                 <div class="col-xs-12">
-                    <a href="parking" class="col-xs-6 col-lg-6 img_1 a-image">PARKING</a>
-                    <a href="verkeersmeldingen" class="col-xs-6 col-lg-6 img_2 a-image">VERKEER</a>
+                    <a href="parking" class="col-xs-6 col-lg-6 img_1 a-image"><p class="break">PARKING</p></a>
+                    <a href="verkeersmeldingen" class="col-xs-6 col-lg-6 img_2 a-image"><p class="break">VERKEERSMELDINGEN</p></a>
                 </div>
             </div><!--end row-->
 
             <div class="row">
                 <div class="col-xs-12">
-                    <a href="stations" class="col-xs-6 col-lg-6 img_3 a-image">STATIONS</a>
-                    <a href="treinverkeersmeldingen" class="col-xs-6 col-lg-6 img_4 a-image">TREINVERKEER</a>
+                    <a href="stations" class="col-xs-6 col-lg-6 img_3 a-image"><p class="break">STATIONS</p></a>
+                    <a href="treinverkeersmeldingen" class="col-xs-6 col-lg-6 img_4 a-image"><p class="break">TREINVERKEERSMELDINGEN</p></a>
                 </div>
             </div><!--end row-->
 
             <div class="row">
                 <div class="col-xs-12">
-                    <a href="fietsdienstverleningen" class="col-xs-6 col-lg-6 img_5 a-image">FIETSDIENSTVERLENING</a>
-                    <a href="taxilocaties" class="col-xs-6 col-lg-6 img_6 a-image">TAXILOCATIES</a>
+                    <a href="fietsdienstverleningen" class="col-xs-6 col-lg-6 img_5 a-image"><p class="break">FIETSDIENSTVERLENINGEN</p></a>
+                    <a href="taxilocaties" class="col-xs-6 col-lg-6 img_6 a-image"><p class="break">TAXILOCATIES</p></a>
                 </div>
             </div><!--end row-->
         </section>
