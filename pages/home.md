@@ -9,7 +9,7 @@ permalink: /home/
         <section>
         <div class="row">
             <div class="col-xs-12 margin_bottom-block">
-                <section class="sidebar">
+                <section class="page">
                     <div class="loader2">
                     </div>
                     <!-- JS content weerbericht -->
