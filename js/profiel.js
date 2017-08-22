@@ -22,23 +22,32 @@
             var name = data[i].name;
             var about = data[i].about;
 
-           tempStr +=   '<div class="col-md-3 col-lg-3 profile-padding">'
-           tempStr +=       '<div class="background-profile">'
-           tempStr +=           '<div class="modal-body">'
-           tempStr +=               '<center>'
-           tempStr +=                   '<img src="' + image + '" name="aboutme" width="110" height="110" border="0" class="img-circle">'
-           tempStr +=                       '<h5 class="media-heading white margin-name_profile">Nieuwe Gebruiker:</h5>'
-           tempStr +=                       '<h4 class="media-heading white margin-name_profile">' + name + '</h4>'
-           tempStr +=               '</center>'
-           tempStr +=                       '<hr>'
-           tempStr +=                '<center>'
-           tempStr +=                           '<p class="text-left white"><strong>About: </strong><br>' + about + '</p>'
-           tempStr +=                           '<br>'
-           tempStr +=                '</center>'
-           tempStr +=           '</div>'
-           tempStr +=        '</div>'
-           tempStr +=     '</div>'
-
+           tempStr +=   '<div class="col-md-3 col-lg-3 profile-padding">';
+           tempStr +=       '<div class="background-profile">';
+           tempStr +=           '<div id="profielGebruiker'+[i]+'">';
+           tempStr +=           '<div class="modal-body">';
+           tempStr +=               '<center>';
+           tempStr +=                   '<img src="' + image + '" name="aboutme" width="110" height="110" border="0" class="img-circle">';
+           tempStr +=                       '<h5 class="media-heading white margin-name_profile">Nieuwe Gebruiker:</h5>';
+           tempStr +=                       '<h4 class="media-heading white margin-name_profile">' + name + '</h4>';
+           tempStr +=               '</center>';
+           tempStr +=                       '<hr>';
+           tempStr +=                '<center>';
+           tempStr +=                           '<p class="text-left white"><strong>About: </strong><br>' + about + '</p>';
+           tempStr +=                           '<br>';
+           tempStr +=                '</center>';
+           tempStr +=                '<div class="row">';
+           tempStr +=                           '<div class="col-xs-6 col-lg-6 text-center">';
+           tempStr +=                               '<a class="buttonHeart" id="likeButton'+[i]+'" onclick="changeClass('+[i]+')" ><i class="fa fa-heart paddingButtonHeart" aria-hidden="true"></i></a>';
+           tempStr +=                           '</div>';
+           tempStr +=                           '<div class="col-xs-6 col-lg-6 text-center">';
+           tempStr +=                               '<a class="buttonCross" onclick="deleteProfile('+[i]+')"><i class="fa fa-times paddingButtonCross" aria-hidden="true"></i></a>';
+           tempStr +=                           '</div>';
+           tempStr +=               '</div>';
+           tempStr +=               '</div>';
+           tempStr +=           '</div>';
+           tempStr +=        '</div>';
+           tempStr +=     '</div>';
 
             }//end for loop
 
@@ -68,3 +77,12 @@
     console.log(ww1.toString());
 
 })();
+
+
+function changeClass(id){
+document.getElementById("likeButton"+id).classList.toggle("buttonHeart-select");
+}
+
+function deleteProfile(id){
+    document.getElementById("profielGebruiker"+id).remove();
+}

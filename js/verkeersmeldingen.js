@@ -26,12 +26,34 @@
             var sourcepayload = result.sourcePayload;
             var subtype = sourcepayload.subtype;
             var street = sourcepayload.street;
-            var reliability = sourcepayload.reliability
+            var city = sourcepayload.city;
+
             //console.log(result);
-            
+            /*
             tempStr += '<div class="row row_custom">';
             tempStr += '<div class="col-xs-12 white"><p><i class="fa fa-exclamation-triangle icon-custom fa-1x" aria-hidden="true"></i> &nbsp' + message + '</p></div>';
+            tempStr += '</div>';//end row */
+
+
+
+            tempStr +=  '<div class="col-lg-6 col-xs-12 row_custom">';
+            tempStr +=      '<div class="col-xs-2 white triangle_car">';
+            tempStr +=          '<i class="fa fa-exclamation-triangle icon-custom fa-3x" aria-hidden="true"></i>';
+            tempStr +=      '</div>';
+            tempStr +=      '<div class="col-xs-10 white">';
+
+            tempStr +=          '<h5 class="font-reg">' + message + '</h5>';
+            tempStr +=          '<div class="row">';
+            tempStr +=          '<div class="col-xs-8 whiteSeeThrough">';
+            tempStr +=              '<h6 class="font"><i class="fa fa-map-marker whiteSeeThrough" aria-hidden="true"></i> &nbsp' + street + '</h5>';
+            tempStr +=          '</div>';
+            tempStr +=          '<div class="col-xs-4 whiteSeeThrough">';
+            tempStr +=              '<h6 class="font"><i class="fa fa-car whiteSeeThrough" aria-hidden="true"></i> &nbsp' + "Stad: &nbsp" + city + '</h5>';
+            tempStr +=          '</div>';
+            tempStr +=          '</div>';
+            tempStr +=      '</div>';
             tempStr += '</div>';//end row
+
             }//end for loop
 
             that.parentContainer.innerHTML = tempStr;

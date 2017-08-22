@@ -80,6 +80,7 @@
       "roadType": 3,
       "sourcePayload": {
         "country": "BE",
+        "city": "Gent",
         "roadType": 3,
         "magvar": 30,
         "subtype": "HAZARD_ON_ROAD_CAR_STOPPED",
@@ -220,6 +221,8 @@
       "roadType": 4,
       "sourcePayload": {
         "country": "BE",
+        "city": "Gent",
+        "street": "Jasmijnstraat",
         "roadType": 4,
         "magvar": 218,
         "subtype": "JAM_HEAVY_TRAFFIC",

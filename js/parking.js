@@ -1,7 +1,8 @@
 ;(function() {
 
   function ParkingApp(id, parentContainer) {
-    this.API_URL = 'https://datatank.stad.gent/4/mobiliteit/bezettingparkingsrealtime.json';
+    this.API_URL = //'https://datatank.stad.gent/4/mobiliteit/bezettingparkingsrealtime.json';
+    '../../data/parking.json';
     this.id = id;
     this.parentContainer = parentContainer;
 
@@ -20,13 +21,27 @@
             var name = data[i].name;
             var address = data[i].address;
             var parkingStatus = data[i].parkingStatus;
-
+            var availableCapacity = parkingStatus.availableCapacity;
+            var totalCapacity = parkingStatus.totalCapacity;
+            /*
             tempStr += '<div class="row row_custom">';
             tempStr += '<div class="col-xs-4 white">' + name + '</div>';
             tempStr += '<div class="col-xs-4 white">' + address + '</div>';
             tempStr += '<div class="col-xs-4 text-right white">' + parkingStatus.availableCapacity + ' / ' + parkingStatus.totalCapacity + '</div>';
-            tempStr += '</div>';//end row
+            tempStr += '</div>';//end row */
             
+
+            tempStr +=  '<div class="col-lg-6 col-xs-12 row_custom">';
+            tempStr +=      '<div class="col-xs-6 white">';
+            tempStr +=          '<h4 class="font-reg">' + name + '</h4>';
+            tempStr +=          '<h5 class="font whiteSeeThrough"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp' + address + '</h5>';
+            tempStr +=      '</div>';
+            tempStr +=      '<div class="col-xs-6 white text-right">';
+            tempStr +=          '<h5 class="font-reg">' + availableCapacity + ' / ' + totalCapacity +  '</h5>';
+            tempStr +=      '</div>';
+            tempStr +=    '<hr>';
+            tempStr +=  '</div>';
+            tempStr += '</div>';//end row
             }//end for loop
 
             that.parentContainer.innerHTML = tempStr;
@@ -55,3 +70,8 @@
     console.log(ww1.toString());          
 
 })();
+
+
+
+
+

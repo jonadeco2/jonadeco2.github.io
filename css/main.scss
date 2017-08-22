@@ -1,5 +1,6 @@
 ---
 ---
+
 $mainblue: rgba(43, 61, 79, 1);
 $black: rgba(black,0.8);
 $white: rgba(255,255,255,1);
@@ -10,7 +11,6 @@ $maingreenseethrough: rgba(63, 181, 155, 0.5);
 
 .btn-custom {
   color: white;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color: $maingreen;
   border: inherit;
 }
@@ -68,7 +68,7 @@ a:hover{
 
 
 .padding-nav {
-    padding-top: 12px;
+    padding-top: 10px;
 }
 
 .padding-nav_back {
@@ -154,11 +154,98 @@ footer {
 }
 
 .padding_footer{
-  padding-top:  10px;
-  padding-bottom: 10px;
+  padding-top:  7px;
+  padding-bottom: 7px;
 }
 
 .img_nav {
   width: 67px;
 }
 
+
+
+.break {
+  word-break: break-all;
+}
+
+.font {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+}
+
+.font-reg {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+
+
+.buttonHeart{
+  color: $maingreen;
+  font-size: 2rem;
+  cursor:pointer;
+}
+
+.buttonHeart:hover{
+  color: $maingreen;
+}
+
+
+.buttonHeart-select{
+  @extend .buttonHeart;
+  color: #e74c3c;
+  
+}
+
+.buttonCross{
+  color: $maingreen;
+  font-size: 2rem;
+  cursor:pointer;
+}
+
+.buttonCross:hover{
+  color: $maingreen;
+}
+
+.paddingButtonHeart{
+  padding-top: 13px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  background-color: $white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: $maingreen;
+  border: solid 2px;
+}
+
+.paddingButtonCross{
+  margin-top: 20px;
+  padding-top: 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 12px;
+  border-radius: 50%;
+  background-color: $white;
+  margin-bottom: 20px;
+  border-color: $maingreen;
+  border: solid 2px;
+}
+
+
+.margin-button_image {
+  margin-bottom: 20px;
+}
+
+.row_custom:nth-child(even){
+  border-left: solid 4px;
+  border-left-color: $white;
+}
+
+.triangle {
+  margin-top: 15px;
+}
+
+.triangle_car {
+  margin-top: 10px;
+}

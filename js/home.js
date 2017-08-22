@@ -24,14 +24,14 @@
           var forecast = item.forecast;
           //console.log(forecast);
           var tempStr = '<div class="weather_condition">';
-          tempStr += '<h1 class="text-center white">' + conditionNow.temp + '°' + units.temperature + '</h1>';
-          tempStr += '<h4 class="text-center white">' + conditionNow.text + '</h4>';
+          tempStr += '<h1 class="text-center white font">' + conditionNow.temp + '°' + units.temperature + '</h1>';
+          tempStr += '<h4 class="text-center white font">' + conditionNow.text + '</h4>';
           tempStr += '</div>';
           tempStr += '</div>';//end weather_condition
           
-          tempStr += '<div class="weather_forecast white">'
+          tempStr += '<div class="weather_forecast white ">'
           for (i=0; i < 1; i++){
-          tempStr += '<div class="weather_forecast_text"><h5 class="text-center">' + forecast[i].high + "°" + units.temperature +  "&nbsp" + "/" +  "&nbsp" + forecast[i].low + "°" + units.temperature +  '</h5></div>';
+          tempStr += '<div class="weather_forecast_text font"><h5 class="text-center">' + forecast[i].high + "°" + units.temperature +  "&nbsp" + "/" +  "&nbsp" + forecast[i].low + "°" + units.temperature +  '</h5></div>';
           tempStr += '</div>'
           }
           that.parentContainer.innerHTML = tempStr;

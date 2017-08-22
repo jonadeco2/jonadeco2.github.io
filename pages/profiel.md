@@ -1,5 +1,5 @@
 ---
-layout : default
+layout : profiel
 title: "Profiel"
 permalink: /home/profiel/
 ---
@@ -8,7 +8,7 @@ permalink: /home/profiel/
 <div class="container">
 <div class="row">
 <div class="col-xs-12 block_top wrapper_3">
-        <h3 class="text-center white padding-block">{{ page.title }}</h3>
+        <h3 class="text-center white padding-block font">{{ page.title }}</h3>
 </div>
 </div>
 
@@ -20,11 +20,11 @@ permalink: /home/profiel/
                <div class="modal-body padding-body">
                     <center>
                     <img src="../../images/profielfoto.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle">
-                    <h3 class="media-heading white margin-name_profile">Jonas De Coster</h3>
+                    <h3 class="media-heading white margin-name_profile font-reg">Jonas De Coster</h3>
                     </center>
                     <hr>
                     <center>
-                    <p class="text-left white"><strong>About: </strong><br>
+                    <p class="text-left white font-reg"><strong>About: </strong><br>
                         Student Multimediaproductie</p>
                     <br>
                     </center>
@@ -35,7 +35,7 @@ permalink: /home/profiel/
 
 
 <section>
-        <div class="row background-profile">
+        <div class="row background-profile font-reg">
                 <section class="sidebar">
                         <div class="loader"></div>
                 </section> 

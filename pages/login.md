@@ -18,11 +18,15 @@ permalink: /login/
                 <br>
 				<input type="password" class="form-control" placeholder="Password" name="pswrd">
                 <br><br>
-				<input type="button" class="btn btn-default btn-block btn-custom margin-button_login " onclick="check(this.form)" value="Login"/>
+				<input type="button" class="btn btn-default btn-block btn-custom font" onclick="check(this.form)" value="Login"/>
+                <br>
 		    </div>
+
+
+
             </form>
-        </div>
-        </div>
+        </div><!-- end form -->
+    </div>
     </div>
 </div>
 

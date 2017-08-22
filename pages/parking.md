@@ -9,7 +9,7 @@ permalink: /home/parking/
 <div class="container">
 <div class="row">
 <div class="col-xs-12 block_top wrapper_3">
-        <h3 class="text-center white padding-block">{{ page.title }}</h3>
+        <h3 class="text-center white padding-block font">{{ page.title }}</h3>
 </div>
 </div>
 
@@ -22,48 +22,70 @@ permalink: /home/parking/
     </div>
 </section>
 <section>
-    <div class="row">
-      <div class="col-xs-12">
+    <div class="row row_background">
         <section class="sidebar">
             <div class="loader"></div>
         </section>
-      </div>
     </div>
 </section><!-- end container -->
 
 
-
-
-
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-    </script>
-
-
     <script>
-    function initMap() {
+
+      function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 13,
           center: {lat: 51.05367, lng: 3.7186}
         });
-        var labels = ['p7','p10','p1','p4','p8','p2'];
-        var markers = locations.map(function(location, i) {
-          return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-          });
-        });
-        var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
+        setMarkers(map);
       }
-      var locations = [
-        {lat: 51.05367, lng: 3.7186},
-        {lat: 51.04171, lng: 3.72557},
-        {lat: 51.05652, lng: 3.72595},
-        {lat: 51.04862, lng: 3.72225},
-        {lat: 51.05532, lng: 3.71653},
-        {lat: 51.05207, lng: 3.72981},
-      ]
+      var parkeergarages = [
+        ['P07 Sint-Michiels', 51.05367, 3.7186, 4],
+        ['P10 Sint-Pietersplein', 51.04171, 3.72557, 5],
+        ['P01 Vrijdagmarkt', 51.05652, 3.72595, 3],
+        ['P04 Savaanstraat', 51.04862, 3.72225, 2],
+        ['P08 Ramen', 51.05532, 3.71653, 1],
+        ['P02 Reep', 51.05207,  3.72981, 1]
+      ];
+
+      var labels = ['P7','P10','P1','P4','P8','P2'];
+
+
+      function setMarkers(map) {
+
+        var shape = {
+          coords: [1, 1, 1, 20, 18, 20, 18, 1],
+          type: 'poly'
+        };
+        for (var i = 0; i < parkeergarages.length; i++) {
+          var parking = parkeergarages[i];
+          var marker = new google.maps.Marker({
+            position: {lat: parking[1], lng: parking[2]},
+            map: map,
+            icon: {
+              url: '../../images/pin10.png',
+              labelOrigin: new google.maps.Point(14,14),
+            },
+            
+            shape: shape,
+            title: parking[0],
+            zIndex: parking[3],
+            label: {
+                    color: 'white',
+                    text: labels[i % labels.length],
+                    fontSize: '12px',
+                    fontFamily: '"Nunito Sans", sans-serif',
+                    fontWeight: '200'
+                  },
+          });
+        }
+      }
     </script>
+
+    
+
+   
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC74LKdgxQR0gpx6A9iAnxYEo3B0D9AobU&callback=initMap"
     type="text/javascript"></script>

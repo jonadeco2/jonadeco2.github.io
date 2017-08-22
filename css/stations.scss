@@ -2,15 +2,29 @@
 ---
 
 $mainblue: rgba(43, 61, 79, 1);
+$mainblueDarker: rgba(34, 53, 68, 0.5);
 $black: rgba(black,0.8);
 $white: rgba(255,255,255,1);
+$whiteSeeThrough: rgba(255,255,255,0.8);
 $maingreen: rgba(63, 181, 155, 1);
 
-.row_custom{
-  padding: 20px 10px 20px 10px;
+.row_background{
   background-color: $mainblue;
-  border:1px solid $white;
 }
+
+
+.row_custom{
+  border-left: solid 4px;
+  border-left-color: $maingreen;
+  border-right: solid 1px;
+  border-right-color: $mainblueDarker;
+  border-bottom: solid 1px;
+  border-bottom-color: $mainblueDarker;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 
 h4{
   text-transform: lowercase;
@@ -18,4 +32,9 @@ h4{
 
 h4:first-letter{
   text-transform: uppercase;
+}
+
+
+.whiteSeeThrough {
+  color: $whiteSeeThrough;
 }

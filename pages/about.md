@@ -1,31 +1,25 @@
 ---
 layout : default
-title: "Stations"
-permalink: /home/stations/
+title: "About"
+permalink: /home/about/
 ---
 
 
 <dl>
 <div class="container">
-<div class="row">
 <div class="col-xs-12 block_top wrapper_3">
         <h3 class="text-center white padding-block font">{{ page.title }}</h3>
 </div>
-</div>
+
 
 <section>
-    <div class="row">
-      <div class="col-xs-12" id="map">
-      </div>
-    </div>
-</section>
-<section>
-    <div class="row row_background">
-        <section class="sidebar">
+    <div id="map"></div>
+      <div class="col-xs-12">
+        <section class="sidebar font-reg">
             <div class="loader"></div>
         </section>
-    </div>
-</section><!-- end container -->
+      </div>
+</section>
 
     <script>
         
@@ -89,11 +83,8 @@ permalink: /home/stations/
 
 
     <section>
-    <div class="row">
     <div class="col-xs-12 block_bottom wrapper_2">
     </div>
-    </div>
     </section>
-
     </div>
 </dl>
