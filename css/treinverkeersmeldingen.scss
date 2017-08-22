@@ -8,10 +8,16 @@ $white: rgba(255,255,255,1);
 $whiteSeeThrough: rgba(255,255,255,0.8);
 $maingreen: rgba(63, 181, 155, 1);
 
+//fonts
+$mainfont: 'Nunito Sans', sans-serif;
+$linkfont: Baloo Thambi, arial, serif;
+
+
+
+//rows
 .row_background{
   background-color: $mainblue;
 }
-
 
 .row_custom{
   border-left: solid 4px;
@@ -22,16 +28,37 @@ $maingreen: rgba(63, 181, 155, 1);
   border-bottom-color: $mainblueDarker;
   padding-top: 20px;
   padding-bottom: 10px;
-}
-.whiteSeeThrough {
-  color: $whiteSeeThrough;
-}
+  
+  .triangle {
+    margin-top: 15px;
+  }
 
+  h5 {
+    font-family: $mainfont;
+    color: $white;
+    font-weight: 400;
+  }
 
-h4{
-  text-transform: lowercase;
-}
-
-h4:first-letter{
+  h5:first-letter{
   text-transform: uppercase;
+  }
+  h6 {
+    font-family: $mainfont;
+    color: $whiteSeeThrough;
+    font-weight: 200;
+  }
+  h6:first-letter{
+  text-transform: uppercase;
+  }
+
+  .value-right {
+      font-weight: 400;
+      font-family: $mainfont;
+      color: $white;
+  }
 }
+
+.row_custom:nth-child(even){
+  border-left: solid 4px;
+  border-left-color: $white;
+  }

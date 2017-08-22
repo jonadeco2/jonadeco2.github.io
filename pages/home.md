@@ -8,8 +8,8 @@ permalink: /home/
     <div class=" col-xs-12 wrapper_home">
         <section>
         <div class="row">
-            <div class="col-xs-12 padding_bottom-block">
-                <section class="sidebar font-reg">
+            <div class="col-xs-12 margin_bottom-block">
+                <section class="sidebar">
                     <div class="loader2">
                     </div>
                     <!-- JS content weerbericht -->
@@ -21,33 +21,33 @@ permalink: /home/
         <section>
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="col-xs-6 col-lg-6 img_1">
-                        <a href="parking" class="a-image"><p class="break">PARKING</p></a>
+                    <div class="col-xs-6 col-lg-6 img_1  a-image">
+                        <a href="parking"><p class="break">PARKING</p></a>
                     </div>
-                    <div class="col-xs-6 col-lg-6 img_2" >
-                    <a href="verkeersmeldingen" class="a-image"><p class="break">VERKEERSMELDINGEN</p></a>
-                    </div>
-                </div>
-            </div><!--end row-->
-
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="col-xs-6 col-lg-6 img_3">
-                        <a href="stations" class="a-image"><p class="break">STATIONS</p></a>
-                    </div>
-                    <div class="col-xs-6 col-lg-6 img_4 " >
-                        <a href="treinverkeersmeldingen" class="a-image"><p class="break">TREINVERKEERSMELDINGEN</p></a>
+                    <div class="col-xs-6 col-lg-6 img_2  a-image" >
+                    <a href="verkeersmeldingen"><p class="break">VERKEERSMELDINGEN</p></a>
                     </div>
                 </div>
             </div><!--end row-->
 
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="col-xs-6 col-lg-6 img_5">
-                        <a href="fietsdienstverleningen" class="a-image"><p class="break">FIETSDIENSTVERLENINGEN</p></a>
+                    <div class="col-xs-6 col-lg-6 img_3  a-image">
+                        <a href="stations"><p class="break">STATIONS</p></a>
                     </div>
-                    <div class="col-xs-6 col-lg-6 img_6 " >
-                        <a href="taxilocaties" class="a-image"><p class="break">TAXILOCATIES</p></a>
+                    <div class="col-xs-6 col-lg-6 img_4  a-image " >
+                        <a href="treinverkeersmeldingen"><p class="break">TREINVERKEERSMELDINGEN</p></a>
+                    </div>
+                </div>
+            </div><!--end row-->
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="col-xs-6 col-lg-6 img_5 a-image">
+                        <a href="fietsdienstverleningen"><p class="break">FIETSDIENSTVERLENINGEN</p></a>
+                    </div>
+                    <div class="col-xs-6 col-lg-6 img_6  a-image" >
+                        <a href="taxilocaties"><p class="break">TAXILOCATIES</p></a>
                     </div>
                 </div>
             </div><!--end row-->

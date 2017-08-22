@@ -18,12 +18,9 @@ permalink: /login/
                 <br>
 				<input type="password" class="form-control" placeholder="Password" name="pswrd">
                 <br><br>
-				<input type="button" class="btn btn-default btn-block btn-custom font" onclick="check(this.form)" value="Login"/>
+				<input type="button" class="btn btn-default btn-block btn-custom margin-bottom_button" onclick="check(this.form)" value="Login"/>
                 <br>
 		    </div>
-
-
-
             </form>
         </div><!-- end form -->
     </div>

@@ -1,44 +1,77 @@
 ---
 ---
 
+//colors
 $mainblue: rgba(43, 61, 79, 1);
 $black: rgba(black,0.8);
-$lichtgrijs: rgba(201,208,217,1);
-$donkergrijs: rgba(96,96,96,1);
 $white: rgba(255,255,255,1);
 $maingreen: rgba(63, 181, 155, 1);
 
+//fonts
+$mainfont: 'Nunito Sans', sans-serif;
+$linkfont: Baloo Thambi, arial, serif;
+
+
+//green-wrapper
+.wrapper_home{
+  background-image: url('../../content/images/city2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+//weather-app
+.margin_bottom-block {
+  margin-bottom: 20px;
+}
+
+.weather_app {
+
+  h1 {
+    font-family: $mainfont;
+    font-weight: 200;
+    color: $white;
+  }
+  h4 {
+    font-family: $mainfont;
+    font-weight: 200;
+    color: $white;
+  }
+}
+
+.weather_forecast {
+
+  h5{
+    font-family: $mainfont;
+    font-weight: 200;
+    color: $white;
+  }
+}
+
 //afbeeldingen
 .img_1{
-  background-image: url('../../images/auto1.jpg');
+  background-image: url('../../content/images/auto1.jpg');
 }
 
 .img_2{
-  background-image: url('../../images/auto2.jpg');
+  background-image: url('../../content/images/auto2.jpg');
 }
 
 .img_3{
-  background-image: url('../../images/trein1.jpg');
+  background-image: url('../../content/images/trein1.jpg');
 }
 
 .img_4{
-  background-image: url('../../images/trein4.jpg');
+  background-image: url('../../content/images/trein4.jpg');
 }
 
 .img_5{
-  background-image: url('../../images/fiets.jpg');
+  background-image: url('../../content/images/fiets.jpg');
 }
 
 .img_6{
-  background-image: url('../../images/taxi.jpg');
-}
-
-.img_7{
-  background-image: url('../../images/route3.jpg');
-}
-
-.img_8{
-  background-image: url('../../images/taxi.jpg');
+  background-image: url('../../content/images/taxi.jpg');
 }
 
 .img_1, .img_2, .img_3, .img_4, .img_5, .img_6 {
@@ -53,9 +86,27 @@ $maingreen: rgba(63, 181, 155, 1);
   line-height: 200px;
   color: white;
   font-weight: 700;
+  a:link {
+      text-decoration: none;
+      }
+
+      a:visited {
+      text-decoration: none;
+    }
+
+      a {
+      color: $white;
+      font-family: Baloo Thambi, arial, serif;
+      text-decoration: none;
+    }
+
+      a:hover{
+      text-decoration: none;
+      color: $white;
+    }
 }
 
-.color {
-  background-color: $maingreen;
+//wordbreak
+.break {
+  word-break: break-all;
 }
-

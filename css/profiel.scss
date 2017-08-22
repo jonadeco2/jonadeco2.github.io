@@ -5,6 +5,11 @@ $mainblue: rgba(43, 61, 79, 1);
 $black: rgba(black,0.8);
 $white: rgba(255,255,255,1);
 $maingreen: rgba(63, 181, 155, 1);
+$maingreenseethrough: rgba(63, 181, 155, 0.5);
+
+//fonts
+$mainfont: 'Nunito Sans', sans-serif;
+$linkfont: Baloo Thambi, arial, serif;
 
 
 
@@ -12,45 +17,93 @@ $maingreen: rgba(63, 181, 155, 1);
   background-color: $mainblue;
 }
 
-.margin-name_profile{
-  margin-top: 20px;
-  margin-bottom: 20px;
+
+  .profile {
+  padding-bottom: 80px; 
+
+  .padding-body {
+  padding-top: 40px;
+  }
 }
 
 .img-circle{
   border: 2px solid white;
+  }
+
+  
+.margin-name_profile{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: $white;
+  font-family: $mainfont;
+  font-weight: 200;
 }
 
 .div_image{
     height: 150px;
     width: auto;
 }
-button{
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+//Profiel
+.buttonHeart{
+  color: $maingreen;
+  font-size: 2rem;
+  cursor:pointer;
 }
 
-.row_custom{
-  padding: 30px 10px 20px 10px;
-  background-color: $mainblue;
-  border:1px solid $white;
-}
-
-h4{
-  text-transform: lowercase;
-}
-
-h4:first-letter{
-  text-transform: uppercase;
+.buttonHeart:hover{
+  color: $maingreen;
 }
 
 
-.padding-bottom_profile {
-  padding-bottom: 80px; 
+.buttonHeart-select{
+  @extend .buttonHeart;
+  color: #e74c3c;
+  
 }
 
-
-.padding-body {
-  padding-top: 40px;
+.buttonCross{
+  color: $maingreen;
+  font-size: 2rem;
+  cursor:pointer;
 }
 
+.buttonCross:hover{
+  color: $maingreen;
+}
+
+.paddingButtonHeart{
+  padding-top: 13px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  background-color: $white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: $maingreen;
+  border: solid 2px;
+}
+
+.paddingButtonCross{
+  margin-top: 20px;
+  padding-top: 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 12px;
+  border-radius: 50%;
+  background-color: $white;
+  margin-bottom: 20px;
+  border-color: $maingreen;
+  border: solid 2px;
+}
+
+.about{
+  color: $white;
+  font-family: $mainfont;
+}
+
+.newUser {
+  @extend .margin-name_profile;
+  font-weight: 400;
+}

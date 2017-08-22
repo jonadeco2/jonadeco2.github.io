@@ -28,12 +28,12 @@
            tempStr +=           '<div class="modal-body">';
            tempStr +=               '<center>';
            tempStr +=                   '<img src="' + image + '" name="aboutme" width="110" height="110" border="0" class="img-circle">';
-           tempStr +=                       '<h5 class="media-heading white margin-name_profile">Nieuwe Gebruiker:</h5>';
-           tempStr +=                       '<h4 class="media-heading white margin-name_profile">' + name + '</h4>';
+           tempStr +=                       '<h5 class="margin-name_profile newUser ">Nieuwe Gebruiker:</h5>';
+           tempStr +=                       '<h4 class="margin-name_profile">' + name + '</h4>';
            tempStr +=               '</center>';
            tempStr +=                       '<hr>';
            tempStr +=                '<center>';
-           tempStr +=                           '<p class="text-left white"><strong>About: </strong><br>' + about + '</p>';
+           tempStr +=                           '<p class="text-left about"><strong>About: </strong><br>' + about + '</p>';
            tempStr +=                           '<br>';
            tempStr +=                '</center>';
            tempStr +=                '<div class="row">';
@@ -72,7 +72,7 @@
 
     };
 
-    var ww1 = new ProfielApp (1, document.querySelector('.sidebar'));
+    var ww1 = new ProfielApp (1, document.querySelector('.page'));
     ww1.loadData();
     console.log(ww1.toString());
 

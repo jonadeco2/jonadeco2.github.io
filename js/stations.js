@@ -23,20 +23,14 @@
             var postcode = data[i].postcode;
             var deelgemeente = data[i].deelgemeente;
             var land = data[i].land;
-            /*
-            tempStr += '<div class="row row_custom">';
-            tempStr += '<div class="col-xs-4 white">' + naam + '</div>';
-            tempStr += '<div class="col-xs-4 white">' + straat + '&nbsp' + huisnr + '&nbsp' + postcode + '</div>';
-            tempStr += '<div class="col-xs-4 white text-right">' + deelgemeente + '&nbsp' + land + '</div>';
-            tempStr += '</div>';//end row*/
-
+            
             tempStr +=  '<div class="col-lg-6 col-xs-12 row_custom">';
-            tempStr +=      '<div class="col-xs-6 white">';
-            tempStr +=          '<h4 class="font-reg">' + naam + '</h4>';
-            tempStr +=          '<h5 class="font whiteSeeThrough"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp' + straat + '&nbsp' + huisnr + '&nbsp' + postcode + '</h5>';
+            tempStr +=      '<div class="col-xs-6">';
+            tempStr +=          '<h4>' + naam + '</h4>';
+            tempStr +=          '<h5><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp' + straat + '&nbsp' + huisnr + '&nbsp' + postcode + '</h5>';
             tempStr +=      '</div>';
-            tempStr +=      '<div class="col-xs-6 white text-right">';
-            tempStr +=          '<h5 class="font-reg">' + deelgemeente + '&nbsp' + land + '</h5>';
+            tempStr +=      '<div class="col-xs-6 text-right">';
+            tempStr +=          '<h5 class="value-right">' + deelgemeente + '&nbsp' + land + '</h5>';
             tempStr +=      '</div>';
             tempStr +=    '<hr>';
             tempStr +=  '</div>';
@@ -65,7 +59,7 @@
 
 };
 
-    var ww1 = new StationsApp(1, document.querySelector('.sidebar'));
+    var ww1 = new StationsApp(1, document.querySelector('.page'));
     ww1.loadData();
     console.log(ww1.toString());          
 

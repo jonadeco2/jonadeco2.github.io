@@ -11,7 +11,7 @@ permalink: /register/
             <form id="register-form" class="form-signin">
                 <input id="name" type="text" class="form-control" placeholder="Name"/>
                 <br>
-                <input id="about" type="text" class="form-control" placeholder="About"/>
+                <input id="about" type="text" class="form-control" placeholder="Description"/>
                 <br>
                 <input id="username" type="text" class="form-control" placeholder="Username"/>
                 <br>

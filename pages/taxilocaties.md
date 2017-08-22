@@ -9,7 +9,7 @@ permalink: /home/taxilocaties/
 <div class="container">
 <div class="row">
 <div class="col-xs-12 block_top wrapper_3">
-        <h3 class="text-center white padding-block font">{{ page.title }}</h3>
+        <h3 class="text-center padding-block">{{ page.title }}</h3>
 </div>
 </div>
 
@@ -21,8 +21,7 @@ permalink: /home/taxilocaties/
 </section>
 <section>
     <div class="row row_background">
-        <section class="sidebar">
-            <div class="loader"></div>
+        <section class="page">
         </section>
     </div>
 </section>

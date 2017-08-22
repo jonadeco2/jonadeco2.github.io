@@ -23,9 +23,9 @@
           var conditionNow = item.condition;
           var forecast = item.forecast;
           //console.log(forecast);
-          var tempStr = '<div class="weather_condition">';
-          tempStr += '<h1 class="text-center white font">' + conditionNow.temp + '°' + units.temperature + '</h1>';
-          tempStr += '<h4 class="text-center white font">' + conditionNow.text + '</h4>';
+          var tempStr = '<div class="weather_app">';
+          tempStr += '<h1 class="text-center">' + conditionNow.temp + '°' + units.temperature + '</h1>';
+          tempStr += '<h4 class="text-center">' + conditionNow.text + '</h4>';
           tempStr += '</div>';
           tempStr += '</div>';//end weather_condition
           
@@ -33,6 +33,7 @@
           for (i=0; i < 1; i++){
           tempStr += '<div class="weather_forecast_text font"><h5 class="text-center">' + forecast[i].high + "°" + units.temperature +  "&nbsp" + "/" +  "&nbsp" + forecast[i].low + "°" + units.temperature +  '</h5></div>';
           tempStr += '</div>'
+          
           }
           that.parentContainer.innerHTML = tempStr;
         } else {
@@ -55,7 +56,7 @@
 
   };
 
-  var ww1 = new WeatherWidget(1, document.querySelector('.sidebar'));
+  var ww1 = new WeatherWidget(1, document.querySelector('.page'));
   ww1.loadData();
   console.log(ww1.toString());
 

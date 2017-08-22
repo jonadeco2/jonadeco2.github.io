@@ -23,21 +23,15 @@
             var parkingStatus = data[i].parkingStatus;
             var availableCapacity = parkingStatus.availableCapacity;
             var totalCapacity = parkingStatus.totalCapacity;
-            /*
-            tempStr += '<div class="row row_custom">';
-            tempStr += '<div class="col-xs-4 white">' + name + '</div>';
-            tempStr += '<div class="col-xs-4 white">' + address + '</div>';
-            tempStr += '<div class="col-xs-4 text-right white">' + parkingStatus.availableCapacity + ' / ' + parkingStatus.totalCapacity + '</div>';
-            tempStr += '</div>';//end row */
-            
+                       
 
             tempStr +=  '<div class="col-lg-6 col-xs-12 row_custom">';
-            tempStr +=      '<div class="col-xs-6 white">';
-            tempStr +=          '<h4 class="font-reg">' + name + '</h4>';
-            tempStr +=          '<h5 class="font whiteSeeThrough"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp' + address + '</h5>';
+            tempStr +=      '<div class="col-xs-6">';
+            tempStr +=          '<h4>' + name + '</h4>';
+            tempStr +=          '<h5><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp' + address + '</h5>';
             tempStr +=      '</div>';
-            tempStr +=      '<div class="col-xs-6 white text-right">';
-            tempStr +=          '<h5 class="font-reg">' + availableCapacity + ' / ' + totalCapacity +  '</h5>';
+            tempStr +=      '<div class="col-xs-6 text-right">';
+            tempStr +=          '<h5 class="value-right">' + availableCapacity + ' / ' + totalCapacity +  '</h5>';
             tempStr +=      '</div>';
             tempStr +=    '<hr>';
             tempStr +=  '</div>';
@@ -65,7 +59,7 @@
 
 };
 
-    var ww1 = new ParkingApp(1, document.querySelector('.sidebar'));
+    var ww1 = new ParkingApp(1, document.querySelector('.page'));
     ww1.loadData();
     console.log(ww1.toString());          
 

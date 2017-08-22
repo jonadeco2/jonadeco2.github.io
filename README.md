@@ -10,14 +10,9 @@ GuideMe Repository
 |Opleidingsinstelling|[Arteveldehogeschool](http://www.arteveldehogeschool.be/)|
 
 ---------------
-### Deploy
 
-+ Start terminal
-    + Navigeer naar de map via `cd`
-Vervolgens:
-+ git init
-+ git remote add origin LinkToGithub
-+ git add .
-+ git status
-+ git commit -m "tekst"
-+ git push -u origin master
+Login gegevens
+
+|Username|Password|
+|---|---|
+|admin|student|

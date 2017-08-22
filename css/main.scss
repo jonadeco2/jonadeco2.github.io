@@ -6,75 +6,15 @@ $black: rgba(black,0.8);
 $white: rgba(255,255,255,1);
 $maingreen: rgba(63, 181, 155, 1);
 $maingreenseethrough: rgba(63, 181, 155, 0.5);
+$oranje: rgba(214,111,38,1);
+$lichtgrijs: rgba(201,208,217,1);
+$donkergrijs: rgba(144,157,170,1);
 
 
+//fonts
+$mainfont: 'Nunito Sans', sans-serif;
+$linkfont: Baloo Thambi, arial, serif;
 
-.btn-custom {
-  color: white;
-  background-color: $maingreen;
-  border: inherit;
-}
-
-.btn-custom:hover {
-  background-color: $maingreen !important;
-  color: white !important;
-}
-
-.link { 
-  font-family: Baloo Thambi, arial, serif; 
-}
-
-//nav
-nav{
-  background-color: $mainblue;
-}
-
-.logo {
-  padding-top: 12px;
-  display: block;
-}
-
-.green {
-  color: $maingreen;
-}
-
-.green:hover {
-  color: $maingreen;
-}
-
-.white {
-  color: $white;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a {
-  color: $white;
-  font-family: Baloo Thambi, arial, serif;
-  text-decoration: none;
-}
-
-a:hover{
-    text-decoration: none;
-    color: $white;
-  }
-
-
-
-.padding-nav {
-    padding-top: 10px;
-}
-
-.padding-nav_back {
-  padding-top: 8px;
-}
-//footer
 html {
     position: relative;
     min-height: 100%;
@@ -84,89 +24,6 @@ body {
     background-color: ghostwhite;
 }
   
-
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    overflow:hidden;
-    background-color: $mainblue;
-    color:white;
-    padding-top:10px;
-}
-
-
-
-
-//googlemaps
-#map {
-  height: 400px;
-  width: 100%;
-}
-
-
-.padding_bottom-block {
-  padding-bottom: 20px;
-}
-
-.block_bottom {
-  height: 120px;
-}
-
-.block_top {
-  height: 143px;
-}
-
-
-.padding-block {
-  padding-top: 40px
-}
-
-.icon-custom {
-  color: $white;
-}
-
-.div-image_home{
-  background-color: $maingreenseethrough;
-}
-
-.wrapper_home{
-  background-image: url('../../images/city2.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.wrapper_3 {
-  background-image: url('../../images/city3.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.wrapper_2 {
-  background-image: url('../../images/city4.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.padding_footer{
-  padding-top:  7px;
-  padding-bottom: 7px;
-}
-
-.img_nav {
-  width: 67px;
-}
-
-
-
-.break {
-  word-break: break-all;
-}
 
 .font {
   font-family: 'Nunito Sans', sans-serif;
@@ -179,73 +36,161 @@ footer {
 }
 
 
-.buttonHeart{
-  color: $maingreen;
-  font-size: 2rem;
-  cursor:pointer;
-}
+//nav
 
-.buttonHeart:hover{
-  color: $maingreen;
-}
+nav {
+  background-color: $mainblue;
 
 
-.buttonHeart-select{
-  @extend .buttonHeart;
-  color: #e74c3c;
-  
-}
-
-.buttonCross{
-  color: $maingreen;
-  font-size: 2rem;
-  cursor:pointer;
-}
-
-.buttonCross:hover{
-  color: $maingreen;
-}
-
-.paddingButtonHeart{
-  padding-top: 13px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 10px;
-  border-radius: 50%;
-  background-color: $white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-color: $maingreen;
-  border: solid 2px;
-}
-
-.paddingButtonCross{
-  margin-top: 20px;
+  .logo {
   padding-top: 12px;
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-bottom: 12px;
-  border-radius: 50%;
-  background-color: $white;
-  margin-bottom: 20px;
-  border-color: $maingreen;
-  border: solid 2px;
-}
+  display: block;
+  }
+  .img_nav {
+  width: 67px;
+  }
 
+  .margin-nav_icon {
+    margin-top: 10px;
+  }
 
-.margin-button_image {
-  margin-bottom: 20px;
-}
-
-.row_custom:nth-child(even){
-  border-left: solid 4px;
-  border-left-color: $white;
-}
-
-.triangle {
+  .margin-nav_back {
   margin-top: 15px;
+  }
+
+  .link { 
+      a:link {
+      text-decoration: none;
+      }
+
+      a:visited {
+      text-decoration: none;
+    }
+
+      a {
+      color: $white;
+      font-family: $linkfont;
+      text-decoration: none;
+    }
+
+      a:hover{
+      text-decoration: none;
+      color: $white;
+    }
+  }
 }
 
-.triangle_car {
-  margin-top: 10px;
+
+//footer
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow:hidden;
+    background-color: $mainblue;
+    color:white;
+    padding:10px;
+    
+    .footer {
+      padding-top: 8px;
+      font-family: $mainfont;
+      font-weight: 200;
+    }
+    .green-link {
+  color: $maingreen;
+  font-family: $linkfont;
+  }
+
+  .green-link:hover {
+  color: $maingreen;
+  }
+}
+
+
+
+
+//googlemaps
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+
+//Top & Bottom
+.block_bottom {
+  height: 120px;
+}
+
+.block_top {
+  height: 143px;
+}
+
+.wrapper_3 {
+  background-image: url('../../content/images/city3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper_2 {
+  background-image: url('../../content/images/city4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.padding-block {
+  padding-top: 40px;
+  color: $white;
+  font-family: $mainfont;
+  font-weight: 200;
+}
+
+//Icons
+.icon-custom {
+  color: $white;
+}
+
+.loader {
+  border: 22px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 22px solid $oranje;
+  border-right: 22px solid $lichtgrijs;
+  border-bottom: 22px solid $oranje;
+  border-left: 22px solid $lichtgrijs;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin:auto;
+}
+.loader2{
+  @extend .loader;
+  width: 25px;
+  height: 25px;
+  
+  border-top: 5px solid $oranje;
+  border-right: 5px solid $lichtgrijs;
+  border-bottom: 5px solid $oranje;
+  border-left: 5px solid $lichtgrijs;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
