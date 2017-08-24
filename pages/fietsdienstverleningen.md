@@ -24,7 +24,6 @@ permalink: /home/fietsdienstverleningen/
 <section>
     <div class="row row_background">
         <section class="page">
-            <div class="loader"></div>
         </section>
     </div>
 </section><!-- end container -->
@@ -66,7 +65,7 @@ permalink: /home/fietsdienstverleningen/
             position: {lat: parking[1], lng: parking[2]},
             map: map,
             icon: {
-              url: '../../images/pin10.png',
+              url: '../../content/icons/pin10.png',
               labelOrigin: new google.maps.Point(14,14),
             },
             

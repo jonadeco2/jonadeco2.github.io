@@ -83,7 +83,6 @@ $linkfont: Baloo Thambi, arial, serif;
 
 .a-image{
   text-align: center;
-  line-height: 200px;
   color: white;
   font-weight: 700;
   a:link {
@@ -103,6 +102,11 @@ $linkfont: Baloo Thambi, arial, serif;
       a:hover{
       text-decoration: none;
       color: $white;
+    }
+
+    p {
+      padding-top: 90px;
+      padding-bottom: 90px;
     }
 }
 

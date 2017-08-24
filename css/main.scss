@@ -90,20 +90,20 @@ footer {
     overflow:hidden;
     background-color: $mainblue;
     color:white;
-    padding:10px;
     
     .footer {
-      padding-top: 8px;
+      padding-top: 17px;
       font-family: $mainfont;
       font-weight: 200;
     }
     .green-link {
-  color: $maingreen;
-  font-family: $linkfont;
+    color: $maingreen;
+    font-family: $linkfont;
   }
 
   .green-link:hover {
-  color: $maingreen;
+    color: $maingreen;
+    text-decoration: none;
   }
 }
 

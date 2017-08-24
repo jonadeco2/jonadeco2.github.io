@@ -25,7 +25,7 @@ permalink: /home/
                         <a href="parking"><p class="break">PARKING</p></a>
                     </div>
                     <div class="col-xs-6 col-lg-6 img_2  a-image" >
-                    <a href="verkeersmeldingen"><p class="break">VERKEERSMELDINGEN</p></a>
+                    <a href="verkeersmeldingen"><p class="break">VERKEER</p></a>
                     </div>
                 </div>
             </div><!--end row-->
@@ -36,7 +36,7 @@ permalink: /home/
                         <a href="stations"><p class="break">STATIONS</p></a>
                     </div>
                     <div class="col-xs-6 col-lg-6 img_4  a-image " >
-                        <a href="treinverkeersmeldingen"><p class="break">TREINVERKEERSMELDINGEN</p></a>
+                        <a href="treinverkeersmeldingen"><p class="break">TREINVERKEER</p></a>
                     </div>
                 </div>
             </div><!--end row-->
@@ -44,7 +44,7 @@ permalink: /home/
             <div class="row">
                 <div class="col-xs-12">
                     <div class="col-xs-6 col-lg-6 img_5 a-image">
-                        <a href="fietsdienstverleningen"><p class="break">FIETSDIENSTVERLENINGEN</p></a>
+                        <a href="fietsdienstverleningen"><p class="break">FIETSDIENSTEN</p></a>
                     </div>
                     <div class="col-xs-6 col-lg-6 img_6  a-image" >
                         <a href="taxilocaties"><p class="break">TAXILOCATIES</p></a>

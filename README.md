@@ -11,8 +11,20 @@ GuideMe Repository
 
 ---------------
 
-Login gegevens
+Login
 
 |Username|Password|
 |---|---|
 |admin|student|
+
+---------------
+
+### Deploy
+
++ Start opdrachtprompt
++ Navigeer naar map: `cd`
++ git init
++ git remote add origin LinkToGithub
++ git add .
++ git commit -m "tekst"
++ git push -u origin master

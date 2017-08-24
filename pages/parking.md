@@ -24,7 +24,6 @@ permalink: /home/parking/
 <section>
     <div class="row row_background">
         <section class="page">
-            <div class="loader"></div>
         </section>
     </div>
 </section><!-- end container -->

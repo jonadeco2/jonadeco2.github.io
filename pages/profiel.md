@@ -37,7 +37,6 @@ permalink: /home/profiel/
 <section>
         <div class="row background-profile">
                 <section class="page">
-                        <div class="loader"></div>
                 </section> 
         </div>
 </section>
